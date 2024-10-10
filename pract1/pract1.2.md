@@ -1,3 +1,4 @@
+```
 import java.util.Scanner;
 public class Main1 {
     public static void main(String[] args) {
@@ -17,3 +18,4 @@ public class Main1 {
         rub=ROUBLES_PER_YUAN*yuan;
         System.out.print(rub);}
 }
+```
