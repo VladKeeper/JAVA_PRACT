@@ -8,7 +8,7 @@ public class Car {
 
     public Car()
     {
-        this.ownerName = "Sanya";
+        this.ownerName = "Moskvichev";
         this.insuranceNumber = "322852";
         this.engineType = "Gas";
     }
