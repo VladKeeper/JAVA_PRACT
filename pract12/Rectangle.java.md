@@ -16,8 +16,19 @@ public class Rectangle implements Shape {
     }
 
     @Override
-    public void draw() {
-        System.out.println("Прямоугольник: цвет = " + color + ", ширина = " + width + ", высота = " + height);
+    public void show() {
+        System.out.println("Rectangle: color = " + color + ", width = " + width + ", height = " + height);
+    }
+
+    // Метод для изменения цвета
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    // Метод для изменения размеров
+    public void setDimensions(int width, int height) {
+        this.width = width;
+        this.height = height;
     }
 }
 ```
