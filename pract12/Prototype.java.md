@@ -10,6 +10,7 @@ public class Prototype {
         Shape clonedRectangle = rectangle.clone();
 
         // Изменение свойств клонированных объектов
+        System.out.println("Клонированные объекты:");
         ((Circle) clonedCircle).draw();
         ((Rectangle) clonedRectangle).draw();
 
