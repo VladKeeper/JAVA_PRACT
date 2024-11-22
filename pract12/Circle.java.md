@@ -14,8 +14,18 @@ public class Circle implements Shape {
     }
 
     @Override
-    public void draw() {
-        System.out.println("Круг: цвет = " + color + ", радиус = " + radius);
+    public void show() {
+        System.out.println("Circle: color = " + color + ", radius = " + radius);
+    }
+
+    // Метод для изменения цвета
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    // Метод для изменения радиуса
+    public void setRadius(int radius) {
+        this.radius = radius;
     }
 }
 ```
