@@ -44,7 +44,7 @@ public class GeometricObject {
 
     /** Возвращает строковое представление этого объекта */
     public String toString() {
-        return "создан " + dateCreated + ",\nцвет: " + color + ", заливка: " + filled;
+        return "создан " + dateCreated + ",\nЦвет: " + color + "; Заливка: " + filled;
     }
 }
 ```
